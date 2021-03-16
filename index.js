@@ -37,11 +37,11 @@ class CountdownTimer {
 
 const countdownToNewYear = new CountdownTimer({
     selector: '#timer-1',
-    targetDate: new Date('Dec 31, 2020'),
+    targetDate: new Date('Dec 31, 2021'),
 });
 
 
 const countdownToChristmas = new CountdownTimer({
     selector: '#timer-2',
-    targetDate: new Date('Dec 25, 2020'),
+    targetDate: new Date('Mar 25, 2021'),
 });
